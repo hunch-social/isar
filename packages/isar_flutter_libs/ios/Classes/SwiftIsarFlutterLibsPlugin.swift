@@ -10,7 +10,6 @@ public class SwiftIsarFlutterLibsPlugin: NSObject, FlutterPlugin {
     }
     
     public func dummyMethodToEnforceBundling() {
-        // dummy calls to prevent tree shaking
-        isar_get_error(0)
+        
     }
 }
